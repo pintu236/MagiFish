@@ -43,6 +43,8 @@ public class PlayScreen extends AbstractScreen {
     private Sound sfxJump, sfxDie, sfxHurt;
     private boolean jumpSoundPlaying;
     private TextureRegion ready, tapRight, tapLeft, tapIndicator, tapUp, fishReady;
+    //Timer
+    private float gameTimer, obstacleGapReducer;
 
     public PlayScreen(MagiFishGame game) {
         super(game);
@@ -199,7 +201,9 @@ public class PlayScreen extends AbstractScreen {
      * Runs when current game state is running
      **/
     private void updateRunning(float delta) {
-
+        gameTimer += delta;
+       // obstacleGapReducer = (10 + gameTimer);
+        Gdx.app.log("SIZE:","SIZE:"+obstacleGapReducer);
         //Input Handling
         if (Gdx.input.isTouched()) {
             player.moveUp();
@@ -244,7 +248,7 @@ public class PlayScreen extends AbstractScreen {
             obstacle.update(delta);
 
             if (obstacle.getX() + obstacle.getWidth() < 0) {
-                obstacle.reposition(obstacle.getX() + Constants.OBSTACLE_COUNT * Constants.GAP_BETWEEN_OBSTACLE);
+                obstacle.reposition(obstacle.getX() + Constants.OBSTACLE_COUNT * (Constants.GAP_BETWEEN_OBSTACLE-obstacleGapReducer));
             }
 
             //Collision detection with obstacle
@@ -261,7 +265,7 @@ public class PlayScreen extends AbstractScreen {
             if (player.position.x > obstacle.getX() + obstacle.getWidth() && !obstacle.isPointClaimed()) {
                 obstacle.markPointClaimed();
                 score++;
-                 hud.updateScore(score);
+                hud.updateScore(score);
             }
         }
     }
