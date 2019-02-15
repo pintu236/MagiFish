@@ -1,0 +1,195 @@
+
+hud.png
+size: 1024,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+btnBuyDown
+  rotate: false
+  xy: 683, 24
+  size: 60, 36
+  orig: 60, 36
+  offset: 0, 0
+  index: -1
+btnBuyUp
+  rotate: false
+  xy: 621, 24
+  size: 60, 36
+  orig: 60, 36
+  offset: 0, 0
+  index: -1
+btnLeaderboard
+  rotate: false
+  xy: 479, 62
+  size: 108, 64
+  orig: 108, 64
+  offset: 0, 0
+  index: -1
+btnLeaderboardPressed
+  rotate: false
+  xy: 699, 62
+  size: 108, 64
+  orig: 108, 64
+  offset: 0, 0
+  index: -1
+btnPlay
+  rotate: false
+  xy: 809, 62
+  size: 108, 64
+  orig: 108, 64
+  offset: 0, 0
+  index: -1
+btnPlayPressed
+  rotate: false
+  xy: 589, 62
+  size: 108, 64
+  orig: 108, 64
+  offset: 0, 0
+  index: -1
+btnRate
+  rotate: false
+  xy: 919, 82
+  size: 72, 44
+  orig: 72, 44
+  offset: 0, 0
+  index: -1
+btnSelectLeftDown
+  rotate: false
+  xy: 903, 16
+  size: 24, 44
+  orig: 24, 44
+  offset: 0, 0
+  index: -1
+btnSelectLeftUp
+  rotate: false
+  xy: 929, 19
+  size: 24, 44
+  orig: 24, 44
+  offset: 0, 0
+  index: -1
+btnSelectRightDown
+  rotate: false
+  xy: 993, 82
+  size: 24, 44
+  orig: 24, 44
+  offset: 0, 0
+  index: -1
+btnSelectRightUp
+  rotate: false
+  xy: 955, 36
+  size: 24, 44
+  orig: 24, 44
+  offset: 0, 0
+  index: -1
+copyright
+  rotate: false
+  xy: 254, 9
+  size: 104, 24
+  orig: 104, 24
+  offset: 0, 0
+  index: -1
+fish
+  rotate: false
+  xy: 745, 32
+  size: 46, 28
+  orig: 46, 28
+  offset: 0, 0
+  index: -1
+gameover
+  rotate: false
+  xy: 254, 35
+  size: 220, 44
+  orig: 220, 44
+  offset: 0, 0
+  index: -1
+lock
+  rotate: false
+  xy: 871, 28
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+menu
+  rotate: false
+  xy: 360, 3
+  size: 71, 30
+  orig: 71, 30
+  offset: 0, 0
+  index: -1
+new
+  rotate: false
+  xy: 919, 65
+  size: 33, 15
+  orig: 33, 15
+  offset: 0, 0
+  index: -1
+ok
+  rotate: false
+  xy: 476, 30
+  size: 71, 30
+  orig: 71, 30
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 955, 4
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+point
+  rotate: false
+  xy: 837, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+ready
+  rotate: false
+  xy: 254, 81
+  size: 223, 45
+  orig: 223, 45
+  offset: 0, 0
+  index: -1
+share
+  rotate: false
+  xy: 549, 30
+  size: 70, 30
+  orig: 70, 30
+  offset: 0, 0
+  index: -1
+tapIndicator
+  rotate: false
+  xy: 981, 42
+  size: 23, 38
+  orig: 23, 38
+  offset: 0, 0
+  index: -1
+tapLeft
+  rotate: false
+  xy: 793, 41
+  size: 42, 19
+  orig: 42, 19
+  offset: 0, 0
+  index: -1
+tapRight
+  rotate: false
+  xy: 433, 14
+  size: 41, 19
+  orig: 41, 19
+  offset: 0, 0
+  index: -1
+tapUp
+  rotate: false
+  xy: 929, 2
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 2, 6
+  size: 250, 120
+  orig: 250, 120
+  offset: 0, 0
+  index: -1

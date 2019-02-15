@@ -1,0 +1,90 @@
+
+player.png
+size: 256,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+blinkyfish
+  rotate: false
+  xy: 168, 36
+  size: 44, 24
+  orig: 44, 24
+  offset: 0, 0
+  index: 1
+blinkyfish
+  rotate: false
+  xy: 168, 36
+  size: 44, 24
+  orig: 44, 24
+  offset: 0, 0
+  index: 3
+blinkyfish
+  rotate: false
+  xy: 168, 10
+  size: 44, 24
+  orig: 44, 24
+  offset: 0, 0
+  index: 2
+flappyfish
+  rotate: false
+  xy: 126, 32
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: 1
+flappyfish
+  rotate: false
+  xy: 126, 32
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: 3
+flappyfish
+  rotate: false
+  xy: 214, 32
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: 2
+mariofish
+  rotate: false
+  xy: 50, 24
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: 1
+mariofish
+  rotate: false
+  xy: 50, 24
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: 3
+mariofish
+  rotate: false
+  xy: 88, 24
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: 2
+normalfish
+  rotate: false
+  xy: 2, 32
+  size: 46, 28
+  orig: 46, 28
+  offset: 0, 0
+  index: 1
+normalfish
+  rotate: false
+  xy: 2, 32
+  size: 46, 28
+  orig: 46, 28
+  offset: 0, 0
+  index: 3
+normalfish
+  rotate: false
+  xy: 2, 2
+  size: 46, 28
+  orig: 46, 28
+  offset: 0, 0
+  index: 2

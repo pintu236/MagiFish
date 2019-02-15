@@ -1,11 +1,9 @@
-package tk.techackers.taptapsplash.helpers;
+package tk.indieme.magifish.helpers;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import tk.techackers.taptapsplash.TapTapSplash;
+import tk.indieme.magifish.MagiFishGame;
 
 /**
  * This Class is a actor which acts as Infinite Scrolling ground in start screen
@@ -14,12 +12,12 @@ import tk.techackers.taptapsplash.TapTapSplash;
  * @date Aug-11-18
  */
 public class InfiniteScrolling extends Actor {
-    private final TapTapSplash game;
+    private final MagiFishGame game;
     private final float scrollSpeed = 150;    //Large is faster
     private int srcX = 0;
     private Texture ground;
 
-    public InfiniteScrolling(float width, float height, TapTapSplash game) {
+    public InfiniteScrolling(float width, float height, MagiFishGame game) {
         this.game = game;
         setBounds(0, 0, width, height);
         setPosition(0, 0);
